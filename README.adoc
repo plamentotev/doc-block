@@ -1,0 +1,17 @@
+= Doc Block
+Plamen Totev <https://github.com/plamentotev[@plamentotev]>
+:url-asciidoctor-js: https://docs.asciidoctor.org/asciidoctor.js/latest/
+:url-github-blocks: https://blocks.githubnext.com/
+:url-repo: https://github.com/plamentotev/doc-block
+:url-repo-files: {url-repo}/blob/main
+:url-license: {url-repo-files}/LICENSE.txt
+
+Doc Block provides {url-github-blocks}[GitHub Block] for rendering AciiDoc(R) documents using {url-asciidoctor-js}[Asciidoctor.js]. The project is still in very early stages of development so any feedback or help is much appreciated. 
+
+== License
+
+Licensed under the MIT license. See {url-license}[LICENSE.txt] for the full license text.
+
+== Trademarks
+
+AsciiDoc(R) is trademark of the Eclipse Foundation, Inc.

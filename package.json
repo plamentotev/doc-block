@@ -1,6 +1,5 @@
 {
-  "name": "custom-block-template",
-  "version": "0.0.0",
+  "name": "doc-block",
   "license": "MIT",
   "scripts": {
     "start": "blocks start",
@@ -9,6 +8,7 @@
   },
   "dependencies": {
     "@githubnext/blocks": "^2.3.5",
+    "asciidoctor": "^3.0.0-alpha.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
