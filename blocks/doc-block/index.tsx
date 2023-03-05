@@ -6,9 +6,14 @@ import "./index.css";
 
 export default function DocBlock(props: FileBlockProps) {
   const { content } = props;
+  const processorOptions = {
+    attributes: {
+      showtitle: "true"
+    }
+  };
 
   const docProcessor = asciidoctor();
-  const renderedContent = docProcessor.convert(content) as string;
+  const renderedContent = docProcessor.convert(content, processorOptions) as string;
 
   return (
     <div className="doc_block__content" dangerouslySetInnerHTML={{__html: renderedContent}}></div>
